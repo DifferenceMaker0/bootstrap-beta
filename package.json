@@ -1,0 +1,24 @@
+{
+  "name": "Bootstrap with Vite",
+  "description": "Include Bootstrap's source Sass and individual JavaScript plugins with Vite.",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "difference-maker0/bootstrap-vite",
+  "license": "MIT",
+  "stackblitz": {
+    "startCommand": "npm start"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "test": "npm run build"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "sass-embedded": "^1.92.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.4"
+  }
+}
